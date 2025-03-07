@@ -23,7 +23,7 @@ This project aims to develop a **radio frequency transmitter** to control drones
 ---
 
 ## ⚙️ Building the transmitter
-###1. Flash the ELRS Receiver as a TX
+### 1. Flash the ELRS Receiver as a TX
 There are several ways to flash the receiver: connecting to its WiFi, using Betaflight Passthrough with a flight controller, or a USB-TTL programmer. I used the USB-TTL since I had it available.
 
 Before flashing, it's a good idea to connect it to a flight controller to confirm it works as a receiver. To turn it into a transmitter, first power it on and wait for it to enable WiFi. Then, connect to its network, go to `10.0.0.1/hardware.json`, and back up the file—this contains its configuration (similar to a CLI Dump in Betaflight).
@@ -38,12 +38,12 @@ Steps:
 
 In my case, the RX (now TX) needed to be power cycled.
 
-###2. Cable soldering and connections
+### 2. Cable soldering and connections
 Just connect all together as in the image below, in the next section
 ![image](https://github.com/user-attachments/assets/5d5b8d23-89f5-4b8e-a004-c6d16dd92b39)
 ![image](https://github.com/user-attachments/assets/ab60d3c0-72d6-422c-ba79-020177e55635)
 
-###3. Flash the Arduino Nano
+### 3. Flash the Arduino Nano
 Once you've assembled it, it's time to flash the Arduino. Visit [this GitHub link](https://github.com/dbloemhard/Arduino-Transmitter-for-ELRS3.x), click the green "Code" button, and choose "Download ZIP" (or clone the repository if you're familiar with that process). You only need the `SimpleTX` folder from the download.
 
 Open Arduino IDE and load `SimpleTX/SimpleTX.ino` (or double-click the `.ino` file).
