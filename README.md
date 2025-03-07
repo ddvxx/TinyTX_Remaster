@@ -39,7 +39,8 @@ Steps:
 In my case, the RX (now TX) needed to be power cycled.
 
 ### 2. Cable soldering and connections
-Just connect all together as in the image below, in the next section
+Just connect all together as in the image below, in the next section.
+
 ![image](https://github.com/user-attachments/assets/5d5b8d23-89f5-4b8e-a004-c6d16dd92b39)
 ![image](https://github.com/user-attachments/assets/ab60d3c0-72d6-422c-ba79-020177e55635)
 
